@@ -8,12 +8,12 @@ subtitle: 记录下所学
 description: 涉猎的主要编程语言为 Python、C++
 keywords: "Python, C++"
 author: Baron Yang
-language: zh-CN
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-#url: https://baronblog.github.io/
+url: https://baronblog.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -43,6 +43,8 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+  
+
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -88,3 +90,8 @@ deploy:
   type: git
   repo: git@github.com:baronblog/baronblog.github.io.git
   branch: main
+  
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
