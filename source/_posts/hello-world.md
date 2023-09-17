@@ -1,8 +1,11 @@
 ---
-title: Hello World
-categories: helloworld
+title: Hello, Welcome to Baron World
+categories: 
+- helloworld
+tags:
+- yyyyyyyyy
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+Welcome to [Baron World](https://baronblog.github.io/)! This is my first post.
 
 ## Quick Start
 
@@ -12,7 +15,6 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 $ hexo new "My New Post"
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
 
 ### Run server
 
@@ -20,20 +22,23 @@ More info: [Writing](https://hexo.io/docs/writing.html)
 $ hexo server
 ```
 
-More info: [Server](https://hexo.io/docs/server.html)
+### Clean local cache
+
+```bash
+$ hexo clean
+```
+
 
 ### Generate static files
 
 ``` bash
-$ hexo generate
+$ hexo g
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
 
 ### Deploy to remote sites
 
 ``` bash
-$ hexo deploy
+$ hexo d
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
