@@ -1,7 +1,7 @@
 ---
 title: Hello, Welcome to Baron World
 categories: 
-- helloworld
+- Hexo
 tags:
 - Hexo
 description: 这是我第一篇文章，主要用来记录hexo命令
